@@ -1,0 +1,24 @@
+<form>
+	<div class="login-container">
+		<div class="login-content">
+			<mat-card>
+				<form [formGroup]="loginForm"  >
+					<mat-form-field>
+						<mat-icon matPrefix>person_outline</mat-icon>
+						<input autofocus type="text" matInput placeholder="Username" formControlName="email">
+					</mat-form-field>
+
+					<mat-form-field>
+						<mat-icon matPrefix>lock_outline</mat-icon>
+						<input type="password" autocomplete="false" matInput placeholder="Password"  formControlName="password">
+					</mat-form-field>
+
+					<button type="submit" mat-raised-button color="primary">LOGIN</button>
+                </form>
+                <div class="register-content">
+                    <span> If You don't have a account yet please <a routerLink ='/register'>REGISTER HERE</a></span>
+                </div>
+            </mat-card>
+		</div>
+	</div>
+</form>

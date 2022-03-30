@@ -1,0 +1,31 @@
+<div class="register-container">
+	<div class="register-content">
+		<mat-card>
+			<form [formGroup]="form">
+				<mat-form-field>
+					<mat-icon matPrefix>person_outline</mat-icon>
+					<input autofocus type="text" matInput placeholder="Username" formControlName="name">
+				</mat-form-field>
+                <mat-form-field>
+					<mat-icon matPrefix>email</mat-icon>
+					<input  type="email" matInput placeholder="Email" formControlName="email">
+				</mat-form-field>
+                <mat-form-field>
+					<mat-icon matPrefix>phone</mat-icon>
+					<input  matInput placeholder="Phone" formControlName="phone">
+				</mat-form-field>
+				<mat-form-field>
+					<mat-icon matPrefix>lock_outline</mat-icon>
+					<input type="password" autocomplete="false" matInput placeholder="Password" formControlName="password">
+				</mat-form-field>
+				<mat-form-field>
+					<mat-icon matPrefix>lock_outline</mat-icon>
+					<input  type="password" matInput placeholder="confirm password" formControlName="confirm_password">
+				</mat-form-field>
+			<div class="submit-button">
+                <button style="width:50%" [disabled]="form.invalid" type="submit" mat-raised-button color="primary">Submit</button>
+            </div>
+			</form>
+		</mat-card>
+	</div>
+</div>
