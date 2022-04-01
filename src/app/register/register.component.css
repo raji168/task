@@ -1,35 +1,38 @@
 .register-container {
-    margin-top: 50px;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    display: flex;
-  }
-  
-  form {
-    width: 100%;
-  }
-  
-  .register-content {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .register-toolbar {
-    justify-content: center;
-  }
-  
-  .mat-form-field {
-    width: 100%;
-    display: block;
-  }
-  
-  .mat-raised-button {
-    width: 80%;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 85px;
-  }
-  
-  
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.a-1{
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+}
+
+.register-content {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.register-toolbar {
+  justify-content: center;
+}
+
+.mat-form-field {
+  width: 100%;
+  display: block;
+}
+
+.mat-raised-button {
+  width: 80%;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 85px;
+}
+

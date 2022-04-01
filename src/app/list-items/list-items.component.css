@@ -1,4 +1,11 @@
 table {
     width: 100%;
-  }
+}
+.table-area{
+  padding:50px;
+}
+.b-c{
+  background-color: #3f51b5;
+  color:white;
+}
   

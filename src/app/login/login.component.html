@@ -1,8 +1,9 @@
 <form>
 	<div class="login-container">
 		<div class="login-content">
+			<mat-toolbar class="a-1" color="primary">Login</mat-toolbar>
 			<mat-card>
-				<form [formGroup]="loginForm"  >
+				<form [formGroup]="loginForm" >
 					<mat-form-field>
 						<mat-icon matPrefix>person_outline</mat-icon>
 						<input autofocus type="text" matInput placeholder="Username" formControlName="email">
